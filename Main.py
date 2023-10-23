@@ -39,4 +39,5 @@ print(f'Atributo creado dinámicamente: {my_person.surname}')
 
 print('---')
 #Llamada a un método de la clase, desde el objeto creado
+print('Llamada al método "saludar": ')
 my_person.saludar()
