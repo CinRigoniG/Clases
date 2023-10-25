@@ -3,8 +3,7 @@ class Person:
     #Atributo de clase
     species = 'Humano'
     
-    def __init__(self, name, age):
-
+    def __init__(self, name='', age=0):
         #Atributos de instancia
         self.name = name
         self.age = age
